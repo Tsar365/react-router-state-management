@@ -1,0 +1,60 @@
+[
+	{
+		"id": 1,
+		"name": "Basic Plan",
+		"price": 20,
+		"currency": "USD",
+		"duration": "per month",
+		"description": "Perfect for beginners who want essential gym access.",
+		"features": [
+			"Access to gym equipment",
+			"Locker room access",
+			"Free WiFi",
+			"Basic workout guidance"
+		]
+	},
+	{
+		"id": 2,
+		"name": "Standard Plan",
+		"price": 40,
+		"currency": "USD",
+		"duration": "per month",
+		"description": "Great for regular gym users with extra benefits.",
+		"features": [
+			"Everything in Basic Plan",
+			"Access to group classes",
+			"1 free personal training session/month",
+			"Sauna access",
+			"Diet consultation (monthly)"
+		]
+	},
+	{
+		"id": 3,
+		"name": "Premium Plan",
+		"price": 70,
+		"currency": "USD",
+		"duration": "per month",
+		"description": "Best for serious fitness enthusiasts.",
+		"features": [
+			"Everything in Standard Plan",
+			"Unlimited personal training",
+			"Custom workout plan",
+			"Priority equipment access",
+			"Massage therapy (1/month)"
+		]
+	},
+	{
+		"id": 4,
+		"name": "Student Plan",
+		"price": 15,
+		"currency": "USD",
+		"duration": "per month",
+		"description": "Affordable plan for students with basic needs.",
+		"features": [
+			"Gym access (off-peak hours)",
+			"Locker room access",
+			"Basic equipment usage",
+			"Discount on group classes"
+		]
+	}
+]

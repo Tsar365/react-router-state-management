@@ -81,11 +81,16 @@ const NavBar = () => {
 					<a href="/contact">Contact</a>
 				</li>
 			</ul>
-			<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">click me</button>
-			
-      <ul classname='md:flex hidden'>
-        {links}
-      </ul>
+			<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+				click me
+			</button>
+
+			<ul
+				className={`absolute md:hidden left-0 w-full bg-orange-800 p-4 duration-300 ${
+					open ? 'top-12' : '-top-96'
+				}`}>
+				{links}
+			</ul>
 		</nav>
 	);
 };
