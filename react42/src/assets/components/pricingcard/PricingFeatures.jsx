@@ -3,7 +3,11 @@
 const PricingFeatures = ({feature}) => {
   return (
     <div>
-      <p>{feature}</p>
+
+      <p>
+        {feature}
+      </p>
+
     </div>
   );
 };
