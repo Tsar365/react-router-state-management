@@ -1,0 +1,57 @@
+[
+	{
+		"id": 1,
+		"name": "Alice Johnson",
+		"age": 18,
+		"class": "Grade 12",
+		"marks": {
+			"physics": 85,
+			"chemistry": 88,
+			"math": 92
+		}
+	},
+	{
+		"id": 2,
+		"name": "Brian Smith",
+		"age": 17,
+		"class": "Grade 12",
+		"marks": {
+			"physics": 78,
+			"chemistry": 81,
+			"math": 75
+		}
+	},
+	{
+		"id": 3,
+		"name": "Catherine Lee",
+		"age": 18,
+		"class": "Grade 12",
+		"marks": {
+			"physics": 91,
+			"chemistry": 94,
+			"math": 96
+		}
+	},
+	{
+		"id": 4,
+		"name": "David Brown",
+		"age": 17,
+		"class": "Grade 12",
+		"marks": {
+			"physics": 67,
+			"chemistry": 72,
+			"math": 70
+		}
+	},
+	{
+		"id": 5,
+		"name": "Emma Wilson",
+		"age": 18,
+		"class": "Grade 12",
+		"marks": {
+			"physics": 88,
+			"chemistry": 90,
+			"math": 87
+		}
+	}
+]

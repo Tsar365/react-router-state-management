@@ -5,9 +5,12 @@ import './App.css'
 // import NavBar from './assets/components/navbar/NavBar'
 import PricingOptions from './assets/components/pricingoptions/PricingOptions'
 import ResultsChart from './assets/components/resultschart/ResultsChart';
+import axios from 'axios';
+import MarksChart from './assets/components/markschart/MarksChart';
 
 
 const pricingPromise = fetch('pricingdata.json').then((res) => res.json());
+const marksPromise =  axios.get('marksData.json');
 
 
 function App() {
@@ -28,6 +31,12 @@ function App() {
 					<PricingOptions pricingPromise={pricingPromise}></PricingOptions>
 				</Suspense>
 				<ResultsChart></ResultsChart>
+				<Suspense
+					fallback={
+						<span className="loading loading-spinner loading-xl"></span>
+					}>
+						<MarksChart marksPromise={marksPromise}></MarksChart>
+					</Suspense>
 			</main>
 		</>
 	);
